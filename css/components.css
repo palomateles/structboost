@@ -1,0 +1,148 @@
+.btn-primary {
+  padding: 16px 24px;
+  background-color: var(--pink-10);
+  color: var(--gray-900);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary.lg {
+  padding: 23px 24px;
+  font-size: 18px;
+}
+
+.btn-primary:hover {
+  background-color: var(--pink-20);
+}
+
+.btn-secondary {
+  padding: 24px 24px;
+  background-color: #ffffff;
+  color: var(--gray-900);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: var(--gray-900);
+  color: var(--gray-100);
+}
+
+.item-digital {
+  width: 100%;
+  max-width: 384px;
+}
+
+.item-digital .icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.item-digital .info h6 {
+  margin-bottom: 8px;
+}
+
+.item-digital .info {
+  width: 100%;
+}
+
+.item-digital .info p {
+  color: var(--gray-600);
+}
+
+.item-digital .info h6 {
+  margin-bottom: 8px;
+}
+
+.item-digital .info p {
+  color: var(--gray-600);
+}
+
+.card-post {
+  border: 0.2rem solid rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.02);
+  padding: 24px;
+}
+
+.card-post .tag {
+  display: inline-block;
+  padding: 8px 22px;
+  color: var(--gray-100);
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  font-family: "Sora", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 1.26px;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+
+.card-post .image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.card-post .text {
+  width: 100%;
+  max-width: 482px;
+}
+
+.card-post .text h6 {
+  margin-bottom: 8px;
+}
+
+.card-post .text p {
+  font-size: 16px;
+  color: var(--gray-600);
+}
+
+@media (max-width: 99.1rem) {
+  .item-digital {
+    text-align: center;
+  }
+  .item-digital .icon {
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .item-digital .info p br {
+    display: none;
+  }
+}
+
+@media (max-width: 56rem) {
+  .item-digital .info p {
+    font-size: 18px;
+    max-width: 319px;
+  }
+  .card-post {
+    padding: 16px;
+  }
+  .card-post .image {
+    margin-bottom: 5.4rem;
+  }
+  .card-post .text h6 {
+    font-size: 1.8rem;
+    letter-spacing: -0.054rem;
+  }
+  .card-post .text p {
+    font-size: 1.4rem;
+  }
+  .s-art-front .all {
+    gap: 3.2rem;
+  }
+}
